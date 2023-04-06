@@ -28,7 +28,7 @@
    ```powershell
    $ copy .env.example .env
    ```
-6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
+6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file. Please don't add the file to git.
 
 7. Run the app
 
