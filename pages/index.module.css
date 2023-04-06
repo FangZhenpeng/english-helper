@@ -14,7 +14,7 @@
   font-style: normal;
 }
 .main,
-.main input {
+.main textarea {
   font-size: 16px;
   line-height: 24px;
   color: #353740;
@@ -39,14 +39,15 @@
 .main form {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 640px;
 }
-.main input[type="text"] {
+.main textarea[type="text"] {
   padding: 12px 16px;
   border: 1px solid #10a37f;
   border-radius: 4px;
   margin-bottom: 24px;
   outline-color: #10a37f;
+  height: 200px;
 }
 .main ::placeholder {
   color: #8e8ea0;
@@ -60,8 +61,13 @@
   border-radius: 4px;
   text-align: center;
   cursor: pointer;
+  width: 50%;
+  align-self: center;
 }
 .main .result {
+  font-size: 20px;
+  color: red;
   font-weight: bold;
   margin-top: 40px;
+  max-width: 1280px;
 }
